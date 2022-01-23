@@ -1,0 +1,17 @@
+.container {
+    width: 800px;
+    height: 400px;
+    margin: o auto;
+    background-color; silver; 
+}
+
+.col {
+    background-color: aqua;
+    padding: 10 px;
+    display: inline-block;
+    width: 300px
+}
+
+.col p {
+    font-size: 1.2rem;
+}
