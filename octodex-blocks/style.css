@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px #ff0000;
+}
+.header-bg {
+    background-image: url('octodex-images/gh_bg.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.title {
+    text-align: center;
+    padding: 50px 0 30px;
+}
+.container {
+    background-color: silver;
+    margin: 0px auto;
+    height: 100vh;
+}
+.octo-container {
+    display: flex; 
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+img.octocat {
+    height: 200px;
+    align-self: center;
+}
+
+.blue-bg {
+    background-color: #154890;
+    border-color: #f73606;
+    border-width: 4px;
+    border-style: inset;
+}
+
+.mauve-bg {
+    background-color: #8b0d7b;
+}
+
+.white-bg {
+    background-color: #fff;
+}
