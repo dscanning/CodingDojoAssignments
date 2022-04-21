@@ -1,0 +1,167 @@
+body {
+  margin: 15px;
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  background-color: #154890;
+  height: 120px;
+  flex-direction: row;
+  justify-content: flex-start
+}
+
+.header h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding-left: 30px;
+  line-height: 120px;
+}
+
+.header-title {
+  flex-grow: 100;
+  padding-top: 32px;
+  padding-bottom: 32 px;
+}
+
+.container {
+  background-color: silver;
+  margin: 0px auto;
+  height: 100vh;
+}
+
+.header img {
+  margin: 20px;
+  border-radius: 75%;
+  width: 200px;
+}
+
+.header img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+ul#header-horizontal-list {
+  line-height: 120px;
+  padding: 0 20px;
+  padding-top: 20px;
+}
+
+ul#header-horizontal-list li {
+  display: inline;
+  padding: 0 25px;
+}
+
+ul#header-horizontal-list li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul#header-horizontal-list li a:hover {
+  text-decoration: underline ;
+
+}
+
+.body-container {
+  width: 65%;
+  margin: 0 auto;
+  padding: 65px 0 0 65px;
+  display: flex;
+}
+
+.body-col-1 {
+  flex-grow: 7;
+  margin: 0 20px 0 0;
+}
+
+.body-col-2 {
+  flex-grow: 4;
+}
+
+.body-content-container {
+  max-width: 65%;
+  min-height: 100px;
+  border: 1px dashed #000;
+}
+
+.content-block {
+  margin: 0 0 20px;
+  border: 1px solid #154890;
+  max-width: 100%;
+}
+
+.main-header {
+  background-image: url('https://picsum.photos/2000');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90px;
+  border-bottom: 1px dashed #000;
+}
+
+.content-block p { 
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.other-headers {
+  height: 50px;
+  background-color: rgb(0, 7, 109);
+  margin: 5px 0 0;
+  padding-left: 10px;
+}
+
+.connection-reqs {
+  height: 210px;
+}
+
+.other-headers h3 {
+  color: #bbb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  line-height:  70px;
+}
+
+.other-headers ul {
+  list-style: none;
+}
+
+.other-headers ul li {
+  margin: 20px 0;
+}
+
+.other-headers ul li p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.other-headers ul li div.cat-icon {
+  float: left;
+  margin-right: 24px;
+}
+
+.cat-icon {
+  background-image: url('https://picsum.photos/45');
+  border-radius: 50%;
+  width: 30px;
+  height: 30px
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
